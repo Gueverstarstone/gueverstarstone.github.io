@@ -1,5 +1,9 @@
-```yaml
 theme: minima
-title: My Python Learning Blog
-author: your-name
-description: Documenting my journey learning Python every day.
+title: "My Python Learning Blog"
+author: "Mungai Joseph"
+description: "Documenting my journey learning Python every day."
+
+# Enable the blog feature of Minima theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
